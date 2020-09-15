@@ -1,0 +1,31 @@
+{
+    "header": {
+        "formName": null
+    },
+    "messages": [{
+        "code": "200",
+        "type": "INFO",
+        "desc": "Success",
+        "fieldName": null
+    }],
+    "errors": [],
+    "responseData": [{
+            "itemName": "Coombes",
+            "price": "$26,00",
+            "type": "Lounge",
+            "rating": 4
+        },
+        {
+            "itemName": "Keeve",
+            "price": "$26,00",
+            "type": "Lounge",
+            "rating": 3
+        },
+        {
+            "itemName": "Nilie",
+            "price": "$26,00",
+            "type": "Lounge",
+            "rating": 2
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+li {
+    display: inline;
+    text-decoration-color: black;
+}
+
+.navitem {
+    font-weight: bolder;
+    color: black;
+    padding-left: 15px;
+}
+
+body {
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration-color: black;
+}
+
+.main-container {
+    padding: 12px;
+    margin: 20px;
+}
+
+.searchbar,
+.searchbar :focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ffc107;
+}
+
+.sidebar {
+    width: 30%;
+    padding-left: 0.5rem;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+}
+.content-box {
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 12px;
+    margin: 12px ;
+    width: 30%;
+    height: 12rem;
+  }
+  
+  .content-box  {
+      border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .itemPic{
+    width: 28%;
+    height: 118%;
+  }
+  .price{
+      color:black;
+  }
